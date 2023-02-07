@@ -1,0 +1,55 @@
+*{
+    src: url(https://fonts.google.com/specimen/Karla);
+    font-family: 'Karla',sans-serif;
+}
+.main-container{
+    display:flex;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    max-height: 520px;
+    max-width: 650px;
+    margin:auto;
+}
+.one{
+    flex-grow:1;
+    padding:4%;
+}
+.two{
+    padding:2%;
+    background-color: hsl(179, 62%, 43%);
+    color:white;
+    border-bottom-left-radius: 2%;
+    /* max-width: 280px; */
+    flex-grow: 1;
+    /* flex-grow:1; */
+}
+.three{
+    padding:4%;
+    background-color: hwb(179 15% 23%);
+    color:#fff;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 2%;
+    /* max-width: 300px; */
+    flex-grow: 1;
+}
+.heading1{
+    color: hsl(179, 62%, 43%);
+}
+.heading2{
+    color: hsl(71, 73%, 54%);
+}
+.para{
+    color: hsl(218, 22%, 67%);
+}
+button{
+    margin-top: 20px;
+    background: hsl(71, 73%, 54%);
+    margin-left: 3px;
+    color: #fff;
+    font-size:1rem;
+    padding: 15px 100px;
+    border-radius: 4px;
+    border:0;
+    outline:0;
+}
